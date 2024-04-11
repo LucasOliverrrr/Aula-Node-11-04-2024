@@ -3,9 +3,9 @@ const rotas   = express.Router()
 
 
 let celulares = [
-    {"celular":"Iphone 15", "desc":"Celular custa 10 mil"},
-    {"celular":"Samsung S23", "desc":"Celular custa 3 mil"},
-    {"celular":"Xiaomi 4", "desc":"Celular custa 1 mil"},
+    {"celular":"Iphone15", "desc":"Celular custa 10 mil"},
+    {"celular":"SamsungS23", "desc":"Celular custa 3 mil"},
+    {"celular":"Xiaomi4", "desc":"Celular custa 1 mil"},
 ]
 
 rotas.get("/", (req, res) =>{
